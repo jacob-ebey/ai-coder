@@ -1,0 +1,25 @@
+{
+  "name": "ai-coder",
+  "version": "0.0.0",
+  "description": "A CLI to aid you in your day to day coding tasks.",
+  "keywords": [
+    "ai",
+    "coder",
+    "cli",
+    "command",
+    "line",
+    "interface"
+  ],
+  "author": "Jacob Ebey <jacob.ebey@live.com>",
+  "license": "ISC",
+  "type": "module",
+  "bin": {
+    "ai-coder": "./bin.cjs"
+  },
+  "dependencies": {
+    "arg": "^5.0.2",
+    "enquirer": "^2.4.1",
+    "execa": "^8.0.1",
+    "openai": "^4.20.0"
+  }
+}
