@@ -13,8 +13,13 @@
   "author": "Jacob Ebey <jacob.ebey@live.com>",
   "license": "ISC",
   "type": "module",
+  "files": [
+    "bin",
+    "lib",
+    "README.md"
+  ],
   "bin": {
-    "ai-coder": "./bin.cjs"
+    "ai-coder": "./bin/ai-coder.cjs"
   },
   "dependencies": {
     "arg": "^5.0.2",
