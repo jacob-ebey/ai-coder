@@ -25,11 +25,19 @@
   "bin": {
     "ai-coder": "./bin/ai-coder.cjs"
   },
+  "scripts": {
+    "collect": "node scripts/collect-lucid-react.js && node scripts/collect-shadcn.js"
+  },
   "dependencies": {
     "arg": "^5.0.2",
     "enquirer": "^2.4.1",
     "execa": "^8.0.1",
     "openai": "^4.20.0"
+  },
+  "devDependencies": {
+    "es-module-lexer": "^1.4.1",
+    "esbuild": "^0.19.7",
+    "front-matter": "^4.0.2"
   },
   "ai": {
     "repo": {
