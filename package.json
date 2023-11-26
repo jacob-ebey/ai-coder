@@ -21,5 +21,12 @@
     "enquirer": "^2.4.1",
     "execa": "^8.0.1",
     "openai": "^4.20.0"
+  },
+  "ai": {
+    "repo": {
+      "baseBranch": "main",
+      "owner": "jacob-ebey",
+      "name": "ai-coder"
+    }
   }
 }
