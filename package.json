@@ -1,6 +1,6 @@
 {
   "name": "ai-coder",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A CLI to aid you in your day to day coding tasks.",
   "keywords": [
     "ai",
@@ -12,6 +12,10 @@
   ],
   "author": "Jacob Ebey <jacob.ebey@live.com>",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacob-ebey/ai-coder.git"
+  },
   "type": "module",
   "files": [
     "bin",

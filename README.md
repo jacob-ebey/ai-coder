@@ -6,6 +6,20 @@ AI-Coder is a command-line tool that uses AI to generate commit messages and pul
 
 Get an OpenAI API key and set it as an environment variable called `OPENAI_API_KEY`.
 
+Add to your package.json your configuration for the AI-Coder to generate PRs. For example, the configuration for this repo looks like this:
+
+```json
+{
+  "ai": {
+    "repo": {
+      "baseBranch": "main",
+      "owner": "jacob-ebey",
+      "name": "ai-coder"
+    }
+  }
+}
+```
+
 ```bash
 npm install ai-coder
 ```
