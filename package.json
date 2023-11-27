@@ -33,9 +33,12 @@
     "arg": "^5.0.2",
     "enquirer": "^2.4.1",
     "execa": "^8.0.1",
-    "openai": "^4.20.0"
+    "openai": "^4.20.0",
+    "tiktoken": "^1.0.11",
+    "vectra": "^0.4.4"
   },
   "devDependencies": {
+    "concurrent-queue": "^7.0.2",
     "es-module-lexer": "^1.4.1",
     "esbuild": "^0.19.7",
     "front-matter": "^4.0.2"
